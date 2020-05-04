@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:paddingTop="10dp"
+    android:layout_marginTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageLayanan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/textJudulLayanan"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-98dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDeskripsiLayanan"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textHarga"
+            android:layout_width="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/pricebox" />
+
+        <TextView
+            android:id="@+id/pesanan"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Pesan Layanan Ini"
+            android:background="@drawable/pricebox"
+            android:textColor="#fff"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-30dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

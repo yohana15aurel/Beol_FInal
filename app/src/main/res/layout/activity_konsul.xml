@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Konsultasi.Konsul"
+    xmlns:design="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="#ffc300" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/title"
+        android:hint="Judul"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        android:clipToPadding="false"
+        android:backgroundTint="#353334"
+        />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/content"
+        android:hint="Keluhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:clipToPadding="false"
+        android:backgroundTint="#353334"
+        android:maxLines="8"
+        />
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image_konsul"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_photo_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/add"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-60dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/send"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:text="Send"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#FFC300"
+        />
+</LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoCar</string>
+    <string name="alert_agree">@android:string/ok</string>
+    <string name="alert_disagree">@android:string/cancel</string>
+    <string name="alert_conn_title">Error Koneksi</string>
+    <string name="alert_conn_desc">Terjadi kesalahan pada koneksi atau server.</string>
+    <string name="alert_success_title">Upload Selesai</string>
+    <string name="alert_success_item_0_desc">Barang baru anda telah disimpan. (Error Gambar)</string>
+    <string name="alert_success_item_1_desc">Barang baru anda telah disimpan.</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.mocar">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Cuci_Motor.Display_List_CuciMotor"></activity>
+        <activity android:name=".Cuci_Motor.ListCuciMotor"
+            android:parentActivityName=".Menu_Dashboard.Menu"/>
+        <activity android:name=".Cuci_Mobil.Display_List_CuciMobil" />
+        <activity android:name=".Cuci_Mobil.ListCuciMobil"
+            android:parentActivityName=".Menu_Dashboard.Menu"/>
+        <activity android:name=".Bengkel_Motor.Display_ListMotor" />
+        <activity android:name=".Review_Activity" />
+        <activity
+            android:name=".Konsultasi.List_Konsul"
+            android:parentActivityName=".Konsultasi.Konsul" />
+        <activity
+            android:name=".Bengkel_Mobil.Display_ListMobil"
+            android:parentActivityName=".Bengkel_Mobil.ListBengkelMobil" />
+        <activity
+            android:name=".Konsultasi.Konsul"
+            android:parentActivityName=".Menu_Dashboard.Menu" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Bengkel_Mobil.ListBengkelMobil"
+            android:parentActivityName=".Menu_Dashboard.Menu"/>
+        <activity android:name=".Menu_Dashboard.Menu" />
+        <activity android:name=".Bengkel_Motor.ListBengkelMotor"
+            android:parentActivityName=".Menu_Dashboard.Menu"/>
+        <activity android:name=".Register.RegisterActivity" />
+        <activity android:name=".Login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

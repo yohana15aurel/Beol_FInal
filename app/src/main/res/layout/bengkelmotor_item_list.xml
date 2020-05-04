@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textTitle1"
+            android:layout_width="200dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Description1"
+            android:layout_width="200dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/telephone"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:id="@+id/kontak1"
+            android:layout_width="200dp"
+            android:layout_marginLeft="148dp"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:layout_marginTop="60dp"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/wa"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:id="@+id/Wa1"
+            android:layout_width="200dp"
+            android:layout_marginLeft="148dp"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:layout_marginTop="90dp"
+            android:textSize="16sp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/images1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-47dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

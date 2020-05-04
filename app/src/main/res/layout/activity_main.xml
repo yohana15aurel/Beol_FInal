@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:layout_width="420dp"
+        android:layout_height="850dp"
+        android:background="@drawable/bgapp"
+        android:translationY="-12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-39dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textSign"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="22sp"
+            android:text="Sign In To Your Account"
+            android:textColor="#FFC300"
+            android:layout_marginTop="38dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="65dp"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logotools"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/menuSign"
+                android:layout_width="360dp"
+                android:layout_height="650dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="280dp"
+                    android:layout_height="47dp"
+                    android:background="@drawable/editboxisi"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="40dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    app:passwordToggleEnabled="true"
+                    app:hintEnabled="false"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="280dp"
+                        android:layout_height="47dp"
+
+                        android:hint="Enter Password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+
+                        android:background="@drawable/editboxisi"
+                        android:layout_gravity="center"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/loginbox"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"/>
+
+                <Button
+                    android:id="@+id/createbox"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/createbox"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

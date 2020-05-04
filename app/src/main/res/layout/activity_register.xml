@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register.RegisterActivity"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="650dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/bgapp"
+            android:layout_width="360dp"
+            android:layout_height="820dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgapp"
+            android:translationY="-12dp" />
+
+        <TextView
+            android:id="@+id/textSign"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-800dp"
+            android:text="Register Here"
+            android:textColor="#FCB300"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="160dp"
+             android:background="@drawable/editboxisi"
+            android:hint="Name"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editboxisi"
+            android:hint="Email"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editboxisi"
+            android:hint="Mobile Phone"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editboxisi"
+            android:hint="Birth Date"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editboxisi"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/confirmation"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editboxisi"
+            android:hint="Confirmation Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnregister" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
